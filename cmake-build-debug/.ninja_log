@@ -1,0 +1,6 @@
+# ninja log v5
+5	434	7928709079248471	build.ninja	b88a50d2ba7c34f3
+2	420	7928704215056733	CMakeFiles/project.dir/main.cpp.obj	677f28a7e0df26d7
+421	782	7928704218649645	project.exe	207c574dce7beef
+1	463	7928725064754588	CMakeFiles/project.dir/main.cpp.obj	677f28a7e0df26d7
+463	809	7928725068191632	project.exe	207c574dce7beef
