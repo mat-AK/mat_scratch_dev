@@ -11,7 +11,11 @@
 # =============================================================================
 
 # =============================================================================
+<<<<<<< HEAD
 # Project: untitled7
+=======
+# Project: project
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 # Configurations: Debug
 # =============================================================================
 
@@ -39,13 +43,65 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
+<<<<<<< HEAD
 cmake_ninja_workdir = C$:/Users/NIK$ COMPUTER/CLionProjects/untitled7/cmake-build-debug/
+=======
+cmake_ninja_workdir = C$:/Users/NIK$ COMPUTER/CLionProjects/project/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target project
+
+
+#############################################
+# Order-only phony target for project
+
+build cmake_object_order_depends_target_project: phony || CMakeFiles/project.dir
+
+build CMakeFiles/project.dir/main.cpp.obj: CXX_COMPILER__project_Debug C$:/Users/NIK$ COMPUTER/CLionProjects/project/main.cpp || cmake_object_order_depends_target_project
+  DEP_FILE = CMakeFiles\project.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\project.dir
+  OBJECT_FILE_DIR = CMakeFiles\project.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target project
+
+
+#############################################
+# Link the executable project.exe
+
+build project.exe: CXX_EXECUTABLE_LINKER__project_Debug CMakeFiles/project.dir/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lmingw32  -lSDL2main  -lSDL2  -lSDL2_image  -lSDL2_ttf  -lSDL2_mixer  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\project.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = project.exe
+  TARGET_IMPLIB = libproject.dll.a
+  TARGET_PDB = project.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\NIK COMPUTER\CLionProjects\project\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+<<<<<<< HEAD
   COMMAND = cmd.exe /C "cd /D "C:\Users\NIK COMPUTER\CLionProjects\untitled7\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\NIK COMPUTER\CLionProjects\untitled7" -B"C:\Users\NIK COMPUTER\CLionProjects\untitled7\cmake-build-debug""
+=======
+  COMMAND = cmd.exe /C "cd /D "C:\Users\NIK COMPUTER\CLionProjects\project\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"C:\Users\NIK COMPUTER\CLionProjects\project" -B"C:\Users\NIK COMPUTER\CLionProjects\project\cmake-build-debug""
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -53,6 +109,7 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+<<<<<<< HEAD
 # Object build statements for EXECUTABLE target untitled7
 
 
@@ -100,6 +157,11 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Target aliases.
 
 build untitled7: phony untitled7.exe
+=======
+# Target aliases.
+
+build project: phony project.exe
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 
 # =============================================================================
 # Folder targets.
@@ -107,9 +169,15 @@ build untitled7: phony untitled7.exe
 # =============================================================================
 
 #############################################
+<<<<<<< HEAD
 # Folder: C:/Users/NIK COMPUTER/CLionProjects/untitled7/cmake-build-debug
 
 build all: phony untitled7.exe
+=======
+# Folder: C:/Users/NIK COMPUTER/CLionProjects/project/cmake-build-debug
+
+build all: phony project.exe
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 
 # =============================================================================
 # Built-in targets

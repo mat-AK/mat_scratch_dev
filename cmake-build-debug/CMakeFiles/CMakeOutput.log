@@ -10,7 +10,11 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
+<<<<<<< HEAD
 The C compiler identification is GNU, found in "C:/Users/NIK COMPUTER/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe"
+=======
+The C compiler identification is GNU, found in "C:/Users/NIK COMPUTER/CLionProjects/project/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe"
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Users/MinGW/bin/c++.exe 
@@ -23,20 +27,34 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
+<<<<<<< HEAD
 The CXX compiler identification is GNU, found in "C:/Users/NIK COMPUTER/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/NIK COMPUTER/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe cmTC_606d1 && [1/2] Building C object CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj
+=======
+The CXX compiler identification is GNU, found in "C:/Users/NIK COMPUTER/CLionProjects/project/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/NIK COMPUTER/CLionProjects/project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe cmTC_c3854 && [1/2] Building C object CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 Using built-in specs.
 COLLECT_GCC=C:\Users\MinGW\bin\gcc.exe
 Target: mingw32
 Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
 Thread model: posix
 gcc version 5.1.0 (tdm-1) 
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
  C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1.exe -quiet -v -iprefix C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\NIKCOM~1\AppData\Local\Temp\ccOXhAOi.s
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1.exe -quiet -v -iprefix C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\NIKCOM~1\AppData\Local\Temp\ccAWf2RM.s
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 GNU C11 (tdm-1) version 5.1.0 (mingw32)
 	compiled by GNU C version 5.1.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -55,6 +73,7 @@ GNU C11 (tdm-1) version 5.1.0 (mingw32)
 	compiled by GNU C version 5.1.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 2682432a7094ac8df846b6a707cdc762
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
  C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj C:\Users\NIKCOM~1\AppData\Local\Temp\ccOXhAOi.s
 GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24
@@ -62,6 +81,15 @@ COMPILER_PATH=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;C:/Users/MinGW/bi
 LIBRARY_PATH=C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/;C:/Users/MinGW/bin/../lib/gcc/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
 COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
 [2/2] Linking C executable cmTC_606d1.exe
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj C:\Users\NIKCOM~1\AppData\Local\Temp\ccAWf2RM.s
+GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24
+COMPILER_PATH=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;C:/Users/MinGW/bin/../libexec/gcc/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/;C:/Users/MinGW/bin/../lib/gcc/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+[2/2] Linking C executable cmTC_c3854.exe
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 Using built-in specs.
 COLLECT_GCC=C:\Users\MinGW\bin\gcc.exe
 COLLECT_LTO_WRAPPER=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe
@@ -71,8 +99,13 @@ Thread model: posix
 gcc version 5.1.0 (tdm-1) 
 COMPILER_PATH=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;C:/Users/MinGW/bin/../libexec/gcc/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/
 LIBRARY_PATH=C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/;C:/Users/MinGW/bin/../lib/gcc/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_606d1.exe' '-mtune=generic' '-march=pentiumpro'
  C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe -plugin C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\NIKCOM~1\AppData\Local\Temp\ccC17dxB.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_606d1.exe C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0 -LC:/Users/MinGW/bin/../lib/gcc -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../.. CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_606d1.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtend.o
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3854.exe' '-mtune=generic' '-march=pentiumpro'
+ C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe -plugin C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\NIKCOM~1\AppData\Local\Temp\cckkM1z3.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_c3854.exe C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0 -LC:/Users/MinGW/bin/../lib/gcc -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../.. CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_c3854.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtend.o
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 
 
 
@@ -91,17 +124,28 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+<<<<<<< HEAD
   ignore line: [Change Dir: C:/Users/NIK COMPUTER/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe cmTC_606d1 && [1/2] Building C object CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj]
+=======
+  ignore line: [Change Dir: C:/Users/NIK COMPUTER/CLionProjects/project/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe cmTC_c3854 && [1/2] Building C object CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj]
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\MinGW\bin\gcc.exe]
   ignore line: [Target: mingw32]
   ignore line: [Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 5.1.0 (tdm-1) ]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
   ignore line: [ C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1.exe -quiet -v -iprefix C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\NIKCOM~1\AppData\Local\Temp\ccOXhAOi.s]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1.exe -quiet -v -iprefix C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\NIKCOM~1\AppData\Local\Temp\ccAWf2RM.s]
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
   ignore line: [GNU C11 (tdm-1) version 5.1.0 (mingw32)]
   ignore line: [	compiled by GNU C version 5.1.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -120,8 +164,13 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 5.1.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 2682432a7094ac8df846b6a707cdc762]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
   ignore line: [ C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj C:\Users\NIKCOM~1\AppData\Local\Temp\ccOXhAOi.s]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj C:\Users\NIKCOM~1\AppData\Local\Temp\ccAWf2RM.s]
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
   ignore line: [GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24]
   ignore line: [COMPILER_PATH=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/]
   ignore line: [C:/Users/MinGW/bin/../libexec/gcc/]
@@ -130,8 +179,13 @@ Parsed C implicit link information from above output:
   ignore line: [C:/Users/MinGW/bin/../lib/gcc/]
   ignore line: [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/]
   ignore line: [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
   ignore line: [[2/2] Linking C executable cmTC_606d1.exe]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [[2/2] Linking C executable cmTC_c3854.exe]
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\MinGW\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe]
@@ -146,13 +200,22 @@ Parsed C implicit link information from above output:
   ignore line: [C:/Users/MinGW/bin/../lib/gcc/]
   ignore line: [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/]
   ignore line: [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_606d1.exe' '-mtune=generic' '-march=pentiumpro']
   link line: [ C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe -plugin C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\NIKCOM~1\AppData\Local\Temp\ccC17dxB.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_606d1.exe C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0 -LC:/Users/MinGW/bin/../lib/gcc -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../.. CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_606d1.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtend.o]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c3854.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe -plugin C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\NIKCOM~1\AppData\Local\Temp\cckkM1z3.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_c3854.exe C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0 -LC:/Users/MinGW/bin/../lib/gcc -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../.. CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_c3854.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtend.o]
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
     arg [C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe] ==> ignore
+<<<<<<< HEAD
     arg [-plugin-opt=-fresolution=C:\Users\NIKCOM~1\AppData\Local\Temp\ccC17dxB.res] ==> ignore
+=======
+    arg [-plugin-opt=-fresolution=C:\Users\NIKCOM~1\AppData\Local\Temp\cckkM1z3.res] ==> ignore
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -171,16 +234,26 @@ Parsed C implicit link information from above output:
     arg [--exclude-libs=libpthread.a] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
+<<<<<<< HEAD
     arg [cmTC_606d1.exe] ==> ignore
+=======
+    arg [cmTC_c3854.exe] ==> ignore
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
     arg [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o] ==> obj [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o]
     arg [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o] ==> obj [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o]
     arg [-LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0] ==> dir [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0]
     arg [-LC:/Users/MinGW/bin/../lib/gcc] ==> dir [C:/Users/MinGW/bin/../lib/gcc]
     arg [-LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib] ==> dir [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib]
     arg [-LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../..] ==> dir [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../..]
+<<<<<<< HEAD
     arg [CMakeFiles/cmTC_606d1.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [--out-implib] ==> ignore
     arg [libcmTC_606d1.dll.a] ==> ignore
+=======
+    arg [CMakeFiles/cmTC_c3854.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_c3854.dll.a] ==> ignore
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -217,17 +290,28 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
+<<<<<<< HEAD
 Change Dir: C:/Users/NIK COMPUTER/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe cmTC_db509 && [1/2] Building CXX object CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj
+=======
+Change Dir: C:/Users/NIK COMPUTER/CLionProjects/project/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe cmTC_18e63 && [1/2] Building CXX object CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 Using built-in specs.
 COLLECT_GCC=C:\Users\MinGW\bin\c++.exe
 Target: mingw32
 Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
 Thread model: posix
 gcc version 5.1.0 (tdm-1) 
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
  C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\NIKCOM~1\AppData\Local\Temp\ccqTGOM3.s
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\NIKCOM~1\AppData\Local\Temp\ccJG9pdF.s
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 GNU C++ (tdm-1) version 5.1.0 (mingw32)
 	compiled by GNU C version 5.1.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -252,6 +336,7 @@ GNU C++ (tdm-1) version 5.1.0 (mingw32)
 	compiled by GNU C version 5.1.0, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 2e47d181020f054da881eda9fc3e9f75
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
  C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\NIKCOM~1\AppData\Local\Temp\ccqTGOM3.s
 GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24
@@ -259,6 +344,15 @@ COMPILER_PATH=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;C:/Users/MinGW/bi
 LIBRARY_PATH=C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/;C:/Users/MinGW/bin/../lib/gcc/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
 COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
 [2/2] Linking CXX executable cmTC_db509.exe
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+ C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\NIKCOM~1\AppData\Local\Temp\ccJG9pdF.s
+GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24
+COMPILER_PATH=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;C:/Users/MinGW/bin/../libexec/gcc/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/
+LIBRARY_PATH=C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/;C:/Users/MinGW/bin/../lib/gcc/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+[2/2] Linking CXX executable cmTC_18e63.exe
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 Using built-in specs.
 COLLECT_GCC=C:\Users\MinGW\bin\c++.exe
 COLLECT_LTO_WRAPPER=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe
@@ -268,8 +362,13 @@ Thread model: posix
 gcc version 5.1.0 (tdm-1) 
 COMPILER_PATH=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/;C:/Users/MinGW/bin/../libexec/gcc/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/
 LIBRARY_PATH=C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/;C:/Users/MinGW/bin/../lib/gcc/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/;C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db509.exe' '-mtune=generic' '-march=pentiumpro'
  C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe -plugin C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\NIKCOM~1\AppData\Local\Temp\cc8jbNRg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_db509.exe C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0 -LC:/Users/MinGW/bin/../lib/gcc -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../.. CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_db509.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtend.o
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18e63.exe' '-mtune=generic' '-march=pentiumpro'
+ C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe -plugin C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\NIKCOM~1\AppData\Local\Temp\ccTf6FsS.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_18e63.exe C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0 -LC:/Users/MinGW/bin/../lib/gcc -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../.. CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_18e63.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtend.o
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
 
 
 
@@ -294,17 +393,28 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+<<<<<<< HEAD
   ignore line: [Change Dir: C:/Users/NIK COMPUTER/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe cmTC_db509 && [1/2] Building CXX object CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj]
+=======
+  ignore line: [Change Dir: C:/Users/NIK COMPUTER/CLionProjects/project/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.4/bin/ninja/win/ninja.exe cmTC_18e63 && [1/2] Building CXX object CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj]
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\MinGW\bin\c++.exe]
   ignore line: [Target: mingw32]
   ignore line: [Configured with: ../../../src/gcc-5.1.0/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-1 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 5.1.0 (tdm-1) ]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
   ignore line: [ C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\NIKCOM~1\AppData\Local\Temp\ccqTGOM3.s]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2021.3.4/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\NIKCOM~1\AppData\Local\Temp\ccJG9pdF.s]
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
   ignore line: [GNU C++ (tdm-1) version 5.1.0 (mingw32)]
   ignore line: [	compiled by GNU C version 5.1.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -329,8 +439,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 5.1.0  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 2e47d181020f054da881eda9fc3e9f75]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
   ignore line: [ C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\NIKCOM~1\AppData\Local\Temp\ccqTGOM3.s]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [ C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\NIKCOM~1\AppData\Local\Temp\ccJG9pdF.s]
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
   ignore line: [GNU assembler version 2.24 (mingw32) using BFD version (GNU Binutils) 2.24]
   ignore line: [COMPILER_PATH=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/]
   ignore line: [C:/Users/MinGW/bin/../libexec/gcc/]
@@ -339,8 +454,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/Users/MinGW/bin/../lib/gcc/]
   ignore line: [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/]
   ignore line: [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
   ignore line: [[2/2] Linking CXX executable cmTC_db509.exe]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+  ignore line: [[2/2] Linking CXX executable cmTC_18e63.exe]
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\MinGW\bin\c++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe]
@@ -355,13 +475,22 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/Users/MinGW/bin/../lib/gcc/]
   ignore line: [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib/]
   ignore line: [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db509.exe' '-mtune=generic' '-march=pentiumpro']
   link line: [ C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe -plugin C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\NIKCOM~1\AppData\Local\Temp\cc8jbNRg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_db509.exe C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0 -LC:/Users/MinGW/bin/../lib/gcc -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../.. CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_db509.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtend.o]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_18e63.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe -plugin C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll -plugin-opt=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\NIKCOM~1\AppData\Local\Temp\ccTf6FsS.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --exclude-libs=libpthread.a -Bdynamic -o cmTC_18e63.exe C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0 -LC:/Users/MinGW/bin/../lib/gcc -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib -LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../.. CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_18e63.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtend.o]
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
     arg [C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=C:/Users/MinGW/bin/../libexec/gcc/mingw32/5.1.0/lto-wrapper.exe] ==> ignore
+<<<<<<< HEAD
     arg [-plugin-opt=-fresolution=C:\Users\NIKCOM~1\AppData\Local\Temp\cc8jbNRg.res] ==> ignore
+=======
+    arg [-plugin-opt=-fresolution=C:\Users\NIKCOM~1\AppData\Local\Temp\ccTf6FsS.res] ==> ignore
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -380,16 +509,26 @@ Parsed CXX implicit link information from above output:
     arg [--exclude-libs=libpthread.a] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
+<<<<<<< HEAD
     arg [cmTC_db509.exe] ==> ignore
+=======
+    arg [cmTC_18e63.exe] ==> ignore
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
     arg [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o] ==> obj [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../crt2.o]
     arg [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o] ==> obj [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/crtbegin.o]
     arg [-LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0] ==> dir [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0]
     arg [-LC:/Users/MinGW/bin/../lib/gcc] ==> dir [C:/Users/MinGW/bin/../lib/gcc]
     arg [-LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib] ==> dir [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/lib]
     arg [-LC:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../..] ==> dir [C:/Users/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../..]
+<<<<<<< HEAD
     arg [CMakeFiles/cmTC_db509.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [--out-implib] ==> ignore
     arg [libcmTC_db509.dll.a] ==> ignore
+=======
+    arg [CMakeFiles/cmTC_18e63.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_18e63.dll.a] ==> ignore
+>>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
