@@ -1,9 +1,0 @@
-<<<<<<< HEAD
-C:/Users/NIK COMPUTER/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/NIK COMPUTER/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/untitled7.dir
-C:/Users/NIK COMPUTER/CLionProjects/untitled7/cmake-build-debug/CMakeFiles/edit_cache.dir
-=======
-C:/Users/NIK COMPUTER/CLionProjects/project/cmake-build-debug/CMakeFiles/project.dir
-C:/Users/NIK COMPUTER/CLionProjects/project/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/NIK COMPUTER/CLionProjects/project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
->>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
