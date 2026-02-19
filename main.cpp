@@ -1,43 +1,39 @@
 #include <iostream>
-#include "operators.h"
-#include "operators_test.h"
+#include <SDL2/SDL.h>
+#include "execution_pause_complete.h"
 
 using namespace std;
 
-int main() {
-    cout << "=== Fundamentals Project - Operators ===\n" << endl;
+int main(int argc, char* argv[]) {
+    cout << "=== Fundamentals Project - Pause/Resume (Section 8.2) ===\n" << endl;
 
-    // run tests
-    testOperators();
+    // Run tests
+    testPauseManager();
 
-    // simple interactive example
-    cout << "--- Simple Example ---" << endl;
+    // Simple example
+    cout << "-- Simple Example ---" << endl;
 
-    Value a, b;
-    initNum(&a, 15);
-    initNum(&b, 4);
+    PauseManager pm;  // ✅ با P بزرگ
+    pm.pc.init(5);
 
-    char buffer[MAX_STR_LEN];
-    cout << "a = " << toStr(&a, buffer) << ", b = " << toStr(&b, buffer) << endl;
+    // Simulate program execution
+    pm.tips.start();
 
-    Value res;
-    res = add(&a, &b);
-    cout << "a + b = " << toStr(&res, buffer) << endl;
+    for (int i = 0; i < 10; i++) {
+        if (i == 3) pm.pause();
+        if (i == 6) pm.resume();
 
-    res = subtract(&a, &b);
-    cout << "a - b = " << toStr(&res, buffer) << endl;
+        if (pm.shouldExecuteNext()) {
+            pm.beforeExecution();
+            cout << "Executing block " << pm.pc.currentLine << endl;
+            pm.afterExecution();
+        }
 
-    res = multiply(&a, &b);
-    cout << "a * b = " << toStr(&res, buffer) << endl;
+        SDL_Delay(100);
+    }
 
-    res = divide(&a, &b);
-    cout << "a / b = " << toStr(&res, buffer) << endl;
-
-    res = modulo(&a, &b);
-    cout << "a % b = " << toStr(&res, buffer) << endl;
-
-    res = greaterThan(&a, &b);
-    cout << "a > b ? " << (res.boolVal ? "true" : "false") << endl;
+    pm.printDebugInfo();
+    pm.cleanup();
 
     cout << "\nProgram finished." << endl;
 
