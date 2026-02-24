@@ -2,7 +2,7 @@
 #define UNTITLED74_EVENT_SYSTEM_H
 
 #include <SDL2/SDL.h>
-#include <stdbool.h>
+#include <cstdbool>
 
 typedef enum {
     EVENT_NONE,

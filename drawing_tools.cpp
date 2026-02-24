@@ -605,7 +605,7 @@ void RenderToolUI(DrawingTools* tools, SDL_Renderer* renderer, TTF_Font* font) {
     int btnX = 10;
     int btnY = 180;
 
-    const char* toolSymbols[] = {
+    const char *toolSymbols[] = {
             "✏️", "🧽", "🪣", "📝", "📏", "⭕", "⬛", "👆", "↔️", "↕️", "🗑️"
     };
 
@@ -621,10 +621,10 @@ void RenderToolUI(DrawingTools* tools, SDL_Renderer* renderer, TTF_Font* font) {
         SDL_RenderDrawRect(renderer, &btnRect);
 
         if (font) {
-            SDL_Surface* surf = TTF_RenderUTF8_Blended(font, toolSymbols[i],
-                                                       (SDL_Color){255, 255, 255, 255});
+            SDL_Surface *surf = TTF_RenderUTF8_Blended(font, toolSymbols[i],
+                                                       (SDL_Color) {255, 255, 255, 255});
             if (surf) {
-                SDL_Texture* tex = SDL_CreateTextureFromSurface(renderer, surf);
+                SDL_Texture *tex = SDL_CreateTextureFromSurface(renderer, surf);
                 SDL_Rect dst = {btnRect.x + 5, btnRect.y + 5, btnSize - 10, btnSize - 10};
                 SDL_RenderCopy(renderer, tex, NULL, &dst);
                 SDL_DestroyTexture(tex);
@@ -642,11 +642,14 @@ void RenderToolUI(DrawingTools* tools, SDL_Renderer* renderer, TTF_Font* font) {
     char sizeText[32];
     sprintf(sizeText, "Size: %d", tools->penSize);
     if (font) {
-        SDL_Surface* surf = TTF_RenderUTF8_Blended(font, sizeText,
-                                                   (SDL_Color){255, 255, 255, 255});
+        SDL_Surface *surf = TTF_RenderUTF8_Blended(font, sizeText,
+                                                   (SDL_Color) {255, 255, 255, 255});
         if (surf) {
-            SDL_Texture* tex = SDL_CreateTextureFromSurface(renderer, surf);
+            SDL_Texture *tex = SDL_CreateTextureFromSurface(renderer, surf);
             SDL_Rect dst = {btnX, colorRect.y + 50, surf->w, surf->h};
             SDL_RenderCopy(renderer, tex, NULL, &dst);
             SDL_DestroyTexture(tex);
             SDL_FreeSurface(surf);
+        }
+    }
+}

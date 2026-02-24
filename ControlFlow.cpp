@@ -86,8 +86,10 @@ int addBlock(ExecutionContext* ctx, int type) {
     return -1;
 }
 
-void setRepeatCount(ExecutionContext* ctx, int blockIndex, int count) {
-    if (blockIndex >= 0 && blockIndex < ctx->blockCount) {
+void setRepeatCount(ExecutionContext* ctx, int blockIndex, int count)
+{
+    if (blockIndex >= 0 && blockIndex < ctx->blockCount)
+    {
         ctx->program[blockIndex].data.repeat.count = count;
         cout << "تعداد تکرار بلوک " << blockIndex << " برابر " << count << " تنظیم شد." << endl;
     }
@@ -99,7 +101,8 @@ void setWaitTime(ExecutionContext* ctx, int blockIndex, double seconds) {
     }
 }
 
-void setCondition(ExecutionContext* ctx, int blockIndex, const char* condition) {
+void setCondition(ExecutionContext* ctx, int blockIndex, const char* condition)
+{
     if (blockIndex >= 0 && blockIndex < ctx->blockCount) {
         strcpy(ctx->program[blockIndex].data.cond.condition, condition);
         cout << "شرط بلوک " << blockIndex << " برابر " << condition << " تنظیم شد." << endl;
@@ -145,7 +148,8 @@ void printAllVariables(ExecutionContext* ctx) {
 }
 
 // ============= توابع ارزیابی =============
-bool evaluateCondition(ExecutionContext* ctx, const char* condition) {
+bool evaluateCondition(ExecutionContext* ctx, const char* condition)
+{
     char varName[20] = "";
     char op[3] = "";
     double value = 0.0;
@@ -167,7 +171,8 @@ bool evaluateCondition(ExecutionContext* ctx, const char* condition) {
 }
 
 // ============= پیش‌پردازش برنامه =============
-void preProcessProgram(ExecutionContext* ctx) {
+void preProcessProgram(ExecutionContext* ctx)
+{
     cout << "\n=== شروع پیش‌پردازش برنامه ===" << endl;
 
     int ifStack[MAX_STACK_SIZE];
@@ -214,7 +219,8 @@ void preProcessProgram(ExecutionContext* ctx) {
 }
 
 // ============= اجرای یک بلوک =============
-void executeBlock(ExecutionContext* ctx, int blockIndex) {
+void executeBlock(ExecutionContext* ctx, int blockIndex)
+{
     Block* block = &ctx->program[blockIndex];
 
     cout << "اجرای خط " << blockIndex << ": ";
@@ -298,7 +304,8 @@ void executeBlock(ExecutionContext* ctx, int blockIndex) {
 }
 
 // ============= اجرای کل برنامه =============
-void runProgram(ExecutionContext* ctx) {
+void runProgram(ExecutionContext* ctx)
+{
     ctx->isRunning = true;
     ctx->currentLine = 0;
 
@@ -336,7 +343,8 @@ void printBlockInfo(ExecutionContext* ctx, int blockIndex) {
          << ", jump=" << b->jumpAddress << endl;
 }
 
-void printProgram(ExecutionContext* ctx) {
+void printProgram(ExecutionContext* ctx)
+{
     cout << "\n=== برنامه ===" << endl;
     for (int i = 0; i < ctx->blockCount; i++) {
         cout << i << ": ";
@@ -349,8 +357,9 @@ void printProgram(ExecutionContext* ctx) {
             case BLOCK_TURN: cout << "TURN"; break;
             default: cout << "نوع " << ctx->program[i].type;
         }
-        cout << " (jump=" << ctx->program[i].jumpAddress << ")" << endl;
+        if (ctx->program[i].jumpAddress != -1)
+            cout << " (jump=" << ctx->program[i].jumpAddress << ")" << endl;
     }
-    cout << "=============\n" << endl;
+    cout << "================\n" << endl;
 }
 //rest od the funcs

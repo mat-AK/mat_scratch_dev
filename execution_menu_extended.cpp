@@ -1,11 +1,11 @@
 #include "execution_menu_extended.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 
 ExtendedExecutionMenu* CreateExtendedExecutionMenu(SDL_Renderer* renderer, TTF_Font* font, int x, int y) {
     ExtendedExecutionMenu* menu = (ExtendedExecutionMenu*)malloc(sizeof(ExtendedExecutionMenu));
     if (!menu) return NULL;
-    menu->base = CreateExecutionMenu(renderer, font, x, y);
+    menu->base = CreateExtendedExecutionMenu(renderer, font, x, y);
     menu->pause = CreateExecutionPause(renderer, font);
     SDL_Rect bounds = GetExecutionMenuBounds(menu->base);
 
@@ -27,7 +27,7 @@ ExtendedExecutionMenu* CreateExtendedExecutionMenu(SDL_Renderer* renderer, TTF_F
 
 void DestroyExtendedExecutionMenu(ExtendedExecutionMenu* menu) {
     if (menu) {
-        if (menu->base) DestroyExecutionMenu(menu->base);
+        if (menu->base) DestroyExtendedExecutionMenu(menu->base);
         if (menu->pause) DestroyExecutionPause(menu->pause);
         free(menu);
     }
@@ -35,7 +35,7 @@ void DestroyExtendedExecutionMenu(ExtendedExecutionMenu* menu) {
 
 void RenderExtendedExecutionMenu(ExtendedExecutionMenu* menu) {
     if (!menu) return;
-    RenderExecutionMenu(menu->base);
+    RenderExtendedExecutionMenu(menu->base);
     SDL_Texture* icon = GetCurrentButtonIcon(menu->pause);
     if (icon) {
     }
@@ -43,7 +43,7 @@ void RenderExtendedExecutionMenu(ExtendedExecutionMenu* menu) {
 
 void HandleExtendedExecutionMenuEvent(ExtendedExecutionMenu* menu, SDL_Event* event) {
     if (!menu || !event) return;
-    MenuEvent baseEvent = HandleExecutionMenuEvent(menu->base, event);
+   MenuEvent baseEvent = HandleExtendedExecutionMenuEvent(menu->base, event);
     switch(baseEvent) {
         case EVENT_RUN:
             menu->isRunning = true;
