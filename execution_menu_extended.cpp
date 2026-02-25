@@ -43,9 +43,9 @@ void RenderExtendedExecutionMenu(ExtendedExecutionMenu* menu) {
 
 void HandleExtendedExecutionMenuEvent(ExtendedExecutionMenu* menu, SDL_Event* event) {
     if (!menu || !event) return;
-   MenuEvent baseEvent = HandleExtendedExecutionMenuEvent(menu->base, event);
+   ExecutionMenu::MenuEvent baseEvent = HandleExtendedExecutionMenuEvent(menu->base, event);
     switch(baseEvent) {
-        case EVENT_RUN:
+        case ExecutionMenu::EVENT_RUN:
             menu->isRunning = true;
             SetPaused(menu->pause, false);
             printf("▶️ Program started\n");

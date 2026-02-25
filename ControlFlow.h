@@ -143,12 +143,13 @@ void setVariable(ExecutionContext* ctx, const char* name, double value);
 //    }
 //}
 
-double getVariable(ExecutionContext* ctx, const char* name) {
-    for (int i = 0; i < MAX_VARIABLES; i++) {
-        if (strcmp(ctx->varNames[i], name) == 0) return ctx->variables[i];
-    }
-    return 0;
-}
+double getVariable(ExecutionContext* ctx, const char* name);
+//{
+//    for (int i = 0; i < MAX_VARIABLES; i++) {
+//        if (strcmp(ctx->varNames[i], name) == 0) return ctx->variables[i];
+//    }
+//    return 0;
+//}
 
 bool evaluateCondition(ExecutionContext* ctx, const char* cond);
 //{

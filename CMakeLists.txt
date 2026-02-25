@@ -10,8 +10,6 @@ add_executable(mat_scratch_dev main.cpp
         drawing_tools.h
         event_system.cpp
         event_system.h
-        execution_menu.h
-        execution_menu_extended.cpp
         execution_menu_extended.h
         execution_pause.cpp
         execution_pause.h
@@ -27,6 +25,9 @@ add_executable(mat_scratch_dev main.cpp
         sprite_events.h
         sprites_events.cpp
         sprites_events.h
+        Variables.h
+        Variables.cpp
+        main3.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer)

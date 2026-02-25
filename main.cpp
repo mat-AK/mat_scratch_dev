@@ -4,9 +4,8 @@
 
 using namespace std;
 
-int main() {
-
-
+int main()
+{
 
     ExecutionContext ctx;
     initContext(&ctx);

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef UNTITLED7_PENSETTINGS_H
 #define UNTITLED7_PENSETTINGS_H
 
@@ -171,7 +170,7 @@ Color pickColorFromWheel(int mouseX, int mouseY, int centerX, int centerY, int r
 }
 
 #endif
-=======
+
 #ifndef PROJECT_PENSETTINGS_H
 #define PROJECT_PENSETTINGS_H
 
@@ -180,4 +179,4 @@ Color pickColorFromWheel(int mouseX, int mouseY, int centerX, int centerY, int r
 
 
 #endif //PROJECT_PENSETTINGS_H
->>>>>>> b095a9fa5a4b64bbcdfac393e50073f302f95b3c
+
