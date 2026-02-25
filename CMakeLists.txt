@@ -3,7 +3,8 @@ project(mat_scratch_dev)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(mat_scratch_dev main.cpp
+add_executable(mat_scratch_dev
+#        main.cpp
         ControlFlow.cpp
         ControlFlow.h
         drawing_tools.cpp
